@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "noUnusedLocals":               true,
+        "allowJs":                      false,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl":                      ".",
+        "emitDecoratorMetadata":        true,
+        "experimentalDecorators":       true,
+        "lib":                          [
+            "es2015"
+        ],
+        "module":                       "commonjs",
+        "moduleResolution":             "node",
+        "noImplicitAny":                true,
+        "noImplicitThis":               true,
+        "outDir":                       "dist",
+        "paths":                        {
+            "*": [
+                "*",
+                "node_modules/*"
+            ]
+        },
+        "sourceMap":                    true,
+        "strictNullChecks":             true,
+        "target":           "es6",
+        "typeRoots": [
+            "./node_modules/@types",
+            "./typings"
+        ]
+    },
+    "exclude": [
+        "./dist"
+    ],
+    "include": [
+        "./**/*"
+    ]
+}

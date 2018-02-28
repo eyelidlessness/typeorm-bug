@@ -1,0 +1,23 @@
+{
+  "name": "typeorm-bug",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsc; node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyelidlessness/typeorm-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyelidlessness/typeorm-bug/issues"
+  },
+  "homepage": "https://github.com/eyelidlessness/typeorm-bug#readme",
+  "dependencies": {
+    "pg": "^7.4.1",
+    "typeorm": "^0.1.13",
+    "typescript": "^2.7.2"
+  }
+}
